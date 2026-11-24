@@ -46,6 +46,14 @@ Une petite gestion de bibliothèque qui grandit avec les notions du cours :
 - [ ] Docker Desktop installé (indispensable pour la séance 3)
 - [ ] Transcrire les cours manquants (5 nov., 19 nov., et 29 oct. / 21 nov. s'il y en a eu)
 
+## Mon code
+
+Ce repo contient le **cours** : planning, fiches et consignes. Le **code** des exercices et du fil rouge `LibraryApp` est dans un repo séparé :
+
+- Repo d'exercices : *(lien à ajouter, par exemple https://github.com/LeeliAnna/SGBD-Exercices)*
+
+Sur chaque PC, les deux repos sont côte à côte dans `C:\Users\admin\source\repos`.
+
 ## Sources
 
 - **Repo du prof** : https://github.com/VFIBXL/SGBD2026_DemoRepo

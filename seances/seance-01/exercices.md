@@ -41,7 +41,7 @@ public class FakeBookRepository : IBookRepository
 
 ## B. Écrire les cas de test sur papier (15 min)
 
-Sans coder, liste **tous** les tests nécessaires pour couvrir ces méthodes. Pour chacun, note le nom du test, les données et le résultat attendu.
+Sur papier, ou dans un fichier `notes/seance-01-tests.md` de ton repo d'exercices. Sans coder, liste **tous** les tests nécessaires pour couvrir ces méthodes. Pour chacun, note le nom du test, les données et le résultat attendu.
 
 - `GetAllBooks()`
 - `GetBookById(int id)`
@@ -59,19 +59,18 @@ Ensuite, entoure les tests qui **modifient** les données. Ceux-là auront besoi
 
 ## C. Fil rouge `LibraryApp` — étape 1 (60 min)
 
+> Le code va dans **ton repo d'exercices**, pas dans `SGBD-Revisions`. Ce repo-ci ne contient que le cours : planning, fiches et consignes.
+
 ### C0. Mise en place Git (10 min)
 
-1. Sur GitHub : crée le repo `SGBD-Revisions` (privé, **sans** README), puis relie-le à ce dossier :
-   ```powershell
-   git remote add origin https://github.com/<ton-pseudo>/SGBD-Revisions.git
-   git push -u origin main
-   ```
-2. Crée l'issue **« Étape 1 : Book, repository fake et tests »**, avec une ligne de contexte et une ligne d'objectif.
-3. Crée la branche depuis l'issue (*Development → Create a branch*), puis `git fetch` et `git checkout` sur cette branche.
+1. Si ce n'est pas encore fait, crée ton repo d'exercices (par exemple `SGBD-Exercices`, **privé**) et clone-le dans `C:\Users\admin\source\repos`.
+2. Ajoute son lien dans la section « Mon code » du README de `SGBD-Revisions`.
+3. Dans le repo d'exercices, crée l'issue **« Étape 1 : Book, repository fake et tests »**, avec une ligne de contexte et une ligne d'objectif.
+4. Crée la branche depuis l'issue (*Development → Create a branch*), puis `git fetch` et `git checkout` sur cette branche.
 
 ### C1. La solution (5 min)
 
-Dans un dossier `src/` :
+À la racine du repo d'exercices :
 - une solution `LibraryApp` ;
 - un projet console `LibraryApp` (.NET 10) ;
 - un projet *xUnit Test Project* `LibraryApp.Tests` qui référence `LibraryApp`.
@@ -122,7 +121,7 @@ Dans `Program.cs`, déclare `IBookRepository repo = new FakeBookRepository();`, 
 
 ## Défi facultatif : la CI
 
-Ajoute `.github/workflows/dotnet.yml`, qui fait `dotnet build` puis `dotnet test` sur `src/LibraryApp.slnx` (ou `.sln`) à chaque push et à chaque PR. Ensuite :
+Ajoute `.github/workflows/dotnet.yml`, dans ton repo d'exercices. Il fait `dotnet build` puis `dotnet test` sur `LibraryApp.slnx` (ou `.sln`) à chaque push et à chaque PR. Ensuite :
 1. Casse volontairement un test et pousse : la PR doit passer au rouge.
 2. Répare : elle repasse au vert.
 3. Active la protection de `main` : PR obligatoire et CI verte requise.
