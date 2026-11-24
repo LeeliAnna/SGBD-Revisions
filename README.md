@@ -54,6 +54,10 @@ Ce repo contient le **cours** : planning, fiches et consignes. Le **code** des e
 
 Sur chaque PC, les deux repos sont côte à côte dans `C:\Users\admin\source\repos`.
 
+## Autre cours
+
+- Révisions Web (séparé) : https://github.com/LeeliAnna/WEB-Revisions
+
 ## Sources
 
 - **Repo du prof** : https://github.com/VFIBXL/SGBD2026_DemoRepo

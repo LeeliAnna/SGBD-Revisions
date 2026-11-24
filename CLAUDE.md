@@ -9,7 +9,8 @@ Ce fichier sert de mémoire partagée entre les sessions Claude, sur tous mes PC
 - **Examen** : un projet SGBD à rendre en **juin 2027**, à **défendre** à l'oral. Je dois comprendre et savoir expliquer chaque ligne.
 - Le prof évalue aussi **l'historique Git** (issues, branches, PR) : *« montrez-moi vos lignes du temps »*.
 - **Temps disponible** : environ 2h par semaine pour ce cours (2h par jour le weekend, partagées avec le cours Web). Pendant les vacances, 6h sur la semaine.
-- Le cours Web a son propre repo (`WEB-Revisions`) : ne pas mélanger les deux.
+- Le cours Web a son propre repo, https://github.com/LeeliAnna/WEB-Revisions (local : `C:\Users\admin\source\repos\WEB-Revisions`) : ne pas mélanger les deux.
+- Ce repo-ci : https://github.com/LeeliAnna/SGBD-Revisions
 
 ## Règles pédagogiques (importantes)
 
