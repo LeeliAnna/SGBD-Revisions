@@ -68,4 +68,5 @@ Sur chaque PC, les deux repos sont côte à côte dans `C:\Users\admin\source\re
   cd C:\Users\admin\source\repos\SGBD2026_DemoRepo
   git pull
   ```
-- Résumés de cours : cours du 1, 8 et 15 octobre (transcriptions)
+- Résumés de cours : [`sources/`](sources) (1, 8 et 15 octobre)
+- [`CLAUDE.md`](CLAUDE.md) : contexte et consignes pour les sessions Claude (sur tous mes PC)
