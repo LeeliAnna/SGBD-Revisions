@@ -1,0 +1,23 @@
+# Build
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.userprefs
+
+# Tests
+TestResults/
+coverage*.*
+
+# Secrets locaux
+appsettings.*.local.json
+*.env
