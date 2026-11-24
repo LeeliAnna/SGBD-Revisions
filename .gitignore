@@ -21,3 +21,6 @@ coverage*.*
 # Secrets locaux
 appsettings.*.local.json
 *.env
+
+# Copie locale du repo du prof (référence, ne pas publier)
+prof-repo/
