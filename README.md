@@ -48,5 +48,16 @@ Une petite gestion de bibliothèque qui grandit avec les notions du cours :
 
 ## Sources
 
-- Repo du prof : https://github.com/VFIBXL/SGBD2026_DemoRepo
+- **Repo du prof** : https://github.com/VFIBXL/SGBD2026_DemoRepo
+
+  Pour l'avoir en local sur un nouveau PC (à côté de ce repo, sans le mélanger) :
+  ```powershell
+  cd C:\Users\admin\source\repos
+  git clone https://github.com/VFIBXL/SGBD2026_DemoRepo.git
+  ```
+  Pour récupérer ses nouveautés après un cours :
+  ```powershell
+  cd C:\Users\admin\source\repos\SGBD2026_DemoRepo
+  git pull
+  ```
 - Résumés de cours : cours du 1, 8 et 15 octobre (transcriptions)
